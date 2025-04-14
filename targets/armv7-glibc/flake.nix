@@ -10,7 +10,7 @@
 
       toolchain = pkgs.fetchurl {
         url = "https://toolchains.bootlin.com/downloads/releases/toolchains/armv7-eabihf/tarballs/armv7-eabihf--glibc--stable-2021.11-1.tar.bz2";
-        sha256 = "sha256-vEDUNR6R/IQ0qkh0D+2l6c5TE2eGu59fPxxLLiA6IkM=";
+        sha256 = "sha256-bRDzVoEUKfG93COhdJMsNRJ6tsbztzi3aPDCnDv5LxA=";
       };
 
       toolchainUnpacked = pkgs.runCommand "unpack-bootlin-toolchain" {
