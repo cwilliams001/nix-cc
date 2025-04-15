@@ -29,8 +29,10 @@
           export AR=mips-buildroot-linux-uclibc-ar
           export STRIP=mips-buildroot-linux-uclibc-strip
 
-          echo "✅ MIPS Big Endian / uClibc toolchain ready!"
-          echo "🔧 Use: $CC -static -o revshell reverse_shell.c"
+          export PS1="(nix-mips-uclibc) $PS1"
+
+          echo "✅ Entered nix-shell for MIPS (Big Endian) uClibc"
+          echo "🔧 Toolcahin in PATH: $CC"
         '';
       };
     };

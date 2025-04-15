@@ -29,8 +29,10 @@
           export AR=arm-buildroot-linux-gnueabihf-ar
           export STRIP=arm-buildroot-linux-gnueabihf-strip
 
-          echo "✅ ARMv7 EABIHF / glibc toolchain ready!"
-          echo "🔧 Use: $CC -static -o revshell reverse_shell.c"
+          export PS1="(nix-ARMv7-glibc) $PS1"
+
+          echo "✅ Entered nix-shell for ARMv7 glibc"
+          echo "🔧 Toolchain in PATH: $CC"
         '';
       };
     };

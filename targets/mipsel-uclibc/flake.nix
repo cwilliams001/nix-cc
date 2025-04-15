@@ -29,8 +29,10 @@
           export AR=mipsel-buildroot-linux-uclibc-ar
           export STRIP=mipsel-buildroot-linux-uclibc-strip
 
-          echo "✅ Bootlin MIPS/uClibc toolchain ready!"
-          echo "🔧 Use: $CC -static -o revshell reverse_shell.c"
+          export PS1="(nix-mipsel-uclibc) $PS1"
+
+          echo "✅ Entered nix-shell for MIPSEL (Little Endian) uClibc"
+          echo "🔧 Toolchain in PATH: $CC"
         '';
       };
     };
