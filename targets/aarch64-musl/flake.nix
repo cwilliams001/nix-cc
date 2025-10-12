@@ -10,7 +10,7 @@
 
       toolchain = pkgs.fetchurl {
         url = "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/aarch64--musl--stable-2018.02-2.tar.bz2";
-        sha256 = "sha256-iEem0AJw3fbqZpVk+LDQWtRlD3vvKsKi14hEUZ70J34=";
+        sha256 = "sha256-iEem0AJw3famaVZPiw0FrUZQ9+v7KsKi14RF8ZTsJ34=";
       };
 
       toolchainUnpacked = pkgs.runCommand "unpack-bootlin-toolchain" {
