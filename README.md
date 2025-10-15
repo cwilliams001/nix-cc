@@ -42,6 +42,7 @@ experimental-features = nix-command flakes
 - [✔️ mipsel-uclibc](./targets/mipsel-uclibc)
 - [✔️ mips-uclibc (Big Endian)](./targets/mips-uclibc)
 - [✔️ armv7-glibc](./targets/armv7-glibc)
+- [✔️ aarch64-musl](./targets/aarch64-musl)
 
 More targets (ARM, RISC-V, etc.) coming soon!
 
