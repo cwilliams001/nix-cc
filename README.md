@@ -43,6 +43,7 @@ experimental-features = nix-command flakes
 - [✔️ mips-uclibc (Big Endian)](./targets/mips-uclibc)
 - [✔️ armv7-glibc](./targets/armv7-glibc)
 - [✔️ aarch64-musl](./targets/aarch64-musl)
+- [✔️ rtl819x-busybox (MIPS Big Endian - BusyBox)](./targets/rtl819x-busybox)
 
 More targets (ARM, RISC-V, etc.) coming soon!
 

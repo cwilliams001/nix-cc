@@ -1,0 +1,5 @@
+# Use nix flake automatically when entering this directory
+# Requires: direnv (install with: nix-env -iA nixpkgs.direnv)
+# Setup: Add 'eval "$(direnv hook bash)"' to your ~/.bashrc
+
+use flake

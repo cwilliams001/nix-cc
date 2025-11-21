@@ -1,0 +1,23 @@
+# Nix
+result
+result-*
+.direnv/
+.envrc
+
+# BusyBox
+busybox-*/
+*.tar.bz2
+busybox-rtl819x
+
+# Build artifacts
+*.o
+*.a
+*.so
+.config
+.config.old
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
